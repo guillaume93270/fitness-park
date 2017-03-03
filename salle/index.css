@@ -1,0 +1,338 @@
+body {
+	margin: 0;
+	padding: 0;
+background-color: rgb(44, 62, 80);
+}
+
+#navbarre {
+	background-color: rgb(231, 76, 60);
+	width: 100%;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+
+	align-content: flex-start;
+}
+
+#logo{
+	background-image: url("http://www.fitnesspark-clayesouilly.fr/wp-content/uploads/2015/05/Logo-Fitness-Parl-Claye-Souilly-V21.png");
+	width: 600px;
+	height: 170px;
+	background-size: cover;
+	position: absolute;
+	top: -10px;
+	right: 10px;
+	margin-right: 150px;
+
+}
+
+
+
+#header{
+	background-color: white;
+	width: 100%;
+	height: 70px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	box-shadow: inset 0.2em 0.2em 0.2em 0.2em grey ;
+	align-content: flex-start;
+}
+
+#bouton{
+
+	display: flex;
+	justify-content: flex-end;
+	text-align: left;
+	margin-left: 25%;
+	margin-top: 25%;
+
+
+}
+
+#nav_fpmag{
+	padding: 10px;
+	cursor: pointer;
+	background-color: rgb(231, 76, 60);
+}
+#nav_fpmag:hover{
+	border-bottom: 5px solid grey;
+}
+
+#nav_cluAV{
+	padding: 10px;
+	cursor: pointer;
+}
+
+#nav_cluAV:hover{
+	border-bottom: 5px solid grey;
+}
+
+#nav_activ{
+	padding: 10px;
+	cursor: pointer;
+}
+
+#nav_activ:hover{
+	border-bottom: 5px solid grey;
+}
+
+#nav_clubs{
+	padding: 10px;
+	cursor: pointer;
+}
+
+#nav_clubs:hover{
+	border-bottom: 5px solid grey;
+}
+#nav_concept{
+	padding: 10px;
+	cursor: pointer;
+}
+
+#nav_concept:hover{
+	border-bottom: 5px solid grey;
+}
+
+#nav_accueil{
+	padding: 10px;
+	cursor: pointer;
+}
+
+#nav_accueil:hover{
+	border-bottom: 5px solid grey;
+}
+
+
+.lima{
+	background-attachment: fixed;
+	background-image: url("http://www.nutrisorn.fr/img/news/6358-programme-de-musculation-pour-femme.jpg");
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+
+}
+
+.lima2{
+	background-attachment: fixed;
+		background-size:contain;
+	background-image: url("https://forum.espace-musculation.com/uploads/monthly_2016_04/571615738449b_citation-motivation-fitness-Si-tu-veux-me-faire-accomplir-quelque-chose-dis-moi-que-je-ne-peux-pas-y-arriver..jpg.dd958e68cffef0aad8106c20ce18e014.jpg");
+	width: 100%;
+	height: 550px;
+	background-size: cover;
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+
+.info{
+	-webkit-box-shadow:inset 10px 15px 70px 3px rgba(0, 153, 255, 0.75);
+	padding-left: 15%;
+	border-top-left-radius: 100px 100px;
+  border-top-right-radius: 100px 100px;
+	width: 85%;
+	height: 200px;
+	background-color: #3b444b;
+	display: flex;
+}
+
+.info2{
+		-webkit-box-shadow:inset 10px 15px 70px 3px rgba(0, 153, 255, 0.75);
+	margin-top: 2%;
+padding-left: 15%;
+	border-bottom-left-radius: 100px 100px;
+  border-bottom-right-radius: 100px 100px;
+	width: 85%;
+	height: 200px;
+	background-color: #3b444b;
+	display: flex;
+}
+
+.clufitpar{
+	margin-top: 50px;
+	margin-left: -20px;
+	color: white;
+}
+
+.text1{
+	margin-left: -20px;
+	color: white;
+
+
+}
+
+.num {
+	color: yellow;
+	margin-left: 20px;
+	padding: 50px;
+	margin-top: 10px;
+	font-size: 3.5em;
+}
+
+.clupar{
+	margin-top: 50px;
+	margin-right: -20px;
+	color: white;
+}
+
+
+.text2{
+	margin-right: -20px;
+	margin-top: 20px;
+	color: white;
+
+}
+
+
+
+#psg{
+	border-radius: 10%;
+	background-image: url("http://sportcenterclub.com/sccwp/wp-content/uploads/2016/09/HH.jpg");
+	width: 260px;
+	height: 180px;
+	background-size: cover;
+	margin-left: 7%;
+	margin-top: 25px;
+
+
+}
+
+#psg2{
+	border-radius: 10%;
+	background-image: url("http://www.insideacademia.com.br/wp-content/uploads/2015/07/bigsto3-770x400.png");
+	width: 260px;
+	height: 180px;
+	background-size: cover;
+	margin-left: 7%;
+	margin-top: 25px;
+
+
+}
+#psg3{
+	border-radius: 10%;
+	background-image: url("http://image.jeuxvideo.com/images-md/x3/z/u/zumba-fitness-core-xbox-360-00a.jpg");
+	width: 260px;
+	height: 180px;
+	background-size: cover;
+	margin-left: 7%;
+	margin-top: 25px;
+
+
+}
+
+#psg4{
+	border-radius: 10%;
+	background-image: url("https://yogaleymen.files.wordpress.com/2017/01/yin.jpg?w=640");
+	width: 260px;
+	height: 180px;
+	background-size: cover;
+	margin-left: 7%;
+	margin-top: 25px;
+
+
+}
+
+.grblok{
+
+	width: 100%;
+
+	display: flex;
+}
+
+.fenetre{
+	-webkit-box-shadow:inset 10px 15px 70px 3px rgba(0, 153, 255, 0.75);
+	border-radius: 10%;
+	width: 300px;
+	height: 450px;
+	background-color: rgb(52, 73, 94);
+	opacity: 1.8;
+	padding-top: 0.5%;
+	margin-left: 1.5%;
+
+}
+
+h3{
+	margin-left: 7%;
+}
+
+.dha{
+	margin-left: 7%;
+
+}
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 450px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+.carouimg1{
+	background-image: url("http://www.fitness-musculation-nutrition.fr/wp-content/uploads/2015/04/Generic-Muscle_31.jpg");
+	background-size: cover;
+}
+.carouimg2{
+	background-image: url("http://www.all-musculation.com/AM/images/20160923-musculation-pectoraux-femmes.jpg");
+	background-size: cover;
+}
+.carouimg3{
+	background-image: url("https://mjcduchere.fr/wp-content/uploads/2016/07/20120706-123003-g.jpg");
+	background-size: cover;
+}
+.carouimg4{
+	background-image: url("http://image.jeuxvideo.com/images-md/x3/z/u/zumba-fitness-core-xbox-360-00a.jpg");
+	background-size: cover;
+}
+.carouimg5{
+	background-image: url("https://yogaleymen.files.wordpress.com/2017/01/yin.jpg?w=640");
+	background-size: cover;
+}
+footer{
+	display:flex;
+	padding-top: 3%;
+	background-color: rgb(231, 76, 60);
+	margin-top: 5%;
+	width: 100%;
+	height: 45%;
+}
+.ct-reseaux{
+display: flex;
+border-radius: 10px;
+-webkit-box-shadow:inset 10px 15px 70px 3px rgba(0, 153, 255, 0.75);
+background-color: rgb(52, 73, 94);
+	width: 40%;
+	height: 30%;
+	margin-left: 10%;
+padding-top: 5px;
+
+}
+.ct-reseaux2{
+display: flex;
+border-radius: 10px;
+-webkit-box-shadow:inset 10px 15px 70px 3px rgba(0, 153, 255, 0.75);
+background-color: rgb(52, 73, 94);
+background-image: url("http://fitnesspark-bagneux-cachan.com/wp-content/uploads/2016/01/logo-fitness-park-bagneux-cachan.png");
+background-size: cover;
+	width: 40%;
+	height: 100%;
+	margin-left: 5%;
+
+}
+.rond{
+	display: flex;
+	align-items: center;
+
+	background-size: cover;
+	border-radius:100%;
+	width: 15%;
+	height: 90%;
+	margin-left: 14%;
+	background-color:rgb(52, 73, 94);
+
+}

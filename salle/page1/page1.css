@@ -1,0 +1,30 @@
+body{
+  background-attachment: fixed;
+  background-image: url("http://etre-un-homme.fr/wp-content/uploads/2014/05/progresser-musculation.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#block{
+  margin-top: 20%;
+  display: flex;
+  border-radius: 10px;
+  width: 100%;
+  height: 60%;
+  background-color: rgb(52, 73, 94);
+	-webkit-box-shadow:inset 10px 15px 70px 3px rgba(0, 153, 255, 0.75);
+}
+#block2{
+padding-left: 10%;
+  align-items: center;
+    margin-top: 5%;
+  width: 60%;
+  height: 20%;
+	
+}
+#video{
+
+  margin-left: 10%;
+}
+p{
+  font-family:Chalkduster, fantasy;
+}
